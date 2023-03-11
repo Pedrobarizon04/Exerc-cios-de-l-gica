@@ -1,0 +1,4 @@
+x = float(input("X: "))
+y = float(input("Y: "))
+produto = x * y 
+print(produto)

@@ -1,0 +1,9 @@
+brancos = int(input("brancos: "))
+nulos = int(input("nulos: "))
+válidos = int(input("Válidos: "))
+
+total_votos = brancos + nulos + válidos
+
+print("Porcentagem de votos brancos:", brancos/total_votos*100,"%.")
+print("Porcentagem de votos nulos:", nulo/total_votos*100,"%.")
+print("Porcentagem de votos valido:", valido/total_votos*100,"%.")
