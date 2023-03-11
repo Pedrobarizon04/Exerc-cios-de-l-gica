@@ -1,0 +1,7 @@
+x = float(input("x é igual a: "))
+y = float(input("y é igual a: ")) 
+z = float(input("z é igual a: ")) 
+
+if (x > y and x > z):
+    maiorN = x
+print(maiorN)

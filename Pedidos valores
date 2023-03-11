@@ -1,0 +1,28 @@
+nome = input("Insira seu nome: ")
+
+pedido = int(input("Pedido: "))
+
+quantidade = int(input("Quantidade: "))
+
+if pedido == 100:
+    pedido = 15
+    valor = pedido*quantidade
+    print("Olá",nome,", o valor total é de: ", valor,"$")
+elif pedido == 101:
+    pedido = 10
+    valor = pedido*quantidade
+    print("Olá",nome,", o valor total é de: ", valor,"$")
+elif pedido == 102:
+    pedido = 12
+    valor = pedido*quantidade
+    print("Olá",nome,", o valor total é de: ", valor,"$")
+elif pedido == 103:
+    pedido = 15
+    valor = pedido*quantidade
+    print("Olá",nome,", o valor total é de: ", valor,"$")
+elif pedido == 104:
+    pedido = 16
+    valor = pedido*quantidade
+    print("Olá",nome,", o valor total é de: ", valor,"$")
+else:
+    print("Pedido não encontrado")
